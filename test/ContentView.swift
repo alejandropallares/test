@@ -18,8 +18,12 @@ struct ContentView: View {
                     .imageScale(.large)
                     .foregroundStyle(.tint)
                 Text("Hello, world!")
+                Text("Hola mundo")
+                
             }
             .padding()
+            .font(.largeTitle)
+            .fontWeight(.bold)
         }
     }
 }
